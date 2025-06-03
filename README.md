@@ -4,7 +4,9 @@
 
 Este proyecto es una aplicación de consola en Node.js que permite interactuar con la API FakeStore para gestionar productos mediante comandos.
 
-1 - Instala las dependencias: npm install
+
+1 - Instala las dependencias: npm install (En este caso no es necesario.)
+
 
 2 - Este proyecto usa comandos con el siguiente formato:
 
@@ -12,9 +14,10 @@ Este proyecto es una aplicación de consola en Node.js que permite interactuar c
 
     "MÉTODO": HTTP method (GET, POST, DELETE).
 
-    "RECURSO": recurso a manipular (solo products soportado).
+    "RECURSO": recurso a manipular (solo "products" soportado).
 
     [ARGUMENTOS]: argumentos adicionales según el comando.
+
 
 3 - Comandos disponibles: 
 
@@ -26,7 +29,9 @@ Este proyecto es una aplicación de consola en Node.js que permite interactuar c
 
     - Eliminar un producto por ID: npm run start DELETE products/<id> (ejemplo: npm run start DELETE products/7) 
 
+
 4 - Requisitos: 
+
     - Node.js versión 18 o superior
 
     - Conexión a internet para acceder a FakeStore API
